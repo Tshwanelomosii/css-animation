@@ -1,12 +1,159 @@
-<!doctype html>
-<html lang=en>
-    <head>
-        <meta charset=utf-8>
-        <link rel="stylesheet" type="text/css" href="css/animation.css">
-        <title>My First animation</title>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <script src="https://kit.fontawesome.com/5a857232c7.js" crossorigin="anonymous"></script>
+    <title>Tshwanelo's digital resumé</title>
+</head>
 
-    <body>
-        <div></div>
-    </body>
+<body>
+    
+    <header>
+        <div class="header-container">
+            <div class="myname">  
+                <h1>Tshwanelo Mosii</h1>
+            </div> 
+
+            <div class="profile"> 
+                <picture>
+                    <source scrset="TSHMOS885_BCL2302_Justin_TshwaneloMosii_ITW9/images/percythree.png" media="(max-width: 600px)">
+                    <source scrset="TSHMOS885_BCL2302_Justin_TshwaneloMosii_ITW9/images/percytwo.png" media="(max-width: 800px)">
+                    <source scrset="TSHMOS885_BCL2302_Justin_TshwaneloMosii_ITW9/images/percy.png" media="(max-width: 1920px)">
+                    <img class="pic" src="images/percy.png" alt="pic" width="250px" height="300px">
+                </picture>
+            </div>
+
+            <div class="paragraph">
+                <p> As a skilled web developer in designing and developing responsive and user-friendly websites,<br>
+                    I am passionate about leveraging my expertise in HTML, CSS to create innovative digital solutions<br>
+                    that meet client needs.
+                </p>
+            </div> 
+                
+        </div> 
+    </header>
+    
+    <!-- grid section -->
+    <section>
+       
+        <div class="navbar">
+        
+            <a href="#Education">Education</a>
+            <a href="#Experience">Experience</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Contacts">Contacts</a>
+            <a href="#Github">Github</a>
+            
+          
+          </div>
+        <!-- gridmother -->
+        <div class="gridcontainer" >
+
+            <div class="Education">
+                <h2 id="Education">Education</h2>
+              <ul>
+                <h3>Secondary school</h3>
+                   <li>President Mangope Tech High<br>2013-2017</li>
+                  
+                <h3>Orbit tvet college</h3>  
+                    <P>2018-2021</P>
+                    <li>Electrical Engineering N1</li>
+                    <li>Electrical Engineering N2</li>
+                    <li>Electrical Engineering N3</li>
+
+                    <li>
+                    Intro to web at
+                    <a target="_blank" href="https://www.codespace.co.za/programs"
+                      >CodeSpace Academy</a
+                    >
+                    </li>
+                 
+
+
+              </ul>
+
+
+            </div>
+            
+            <div class="Skills">
+                <h2 id="Skills">Skills</h2>
+                    <ul>
+                        <li>Web Design</li>
+                        <li>Wireframe Creation</li>
+                        <li>Frontend Coding</li>
+                        <li>Strong Communication</li>
+                        <li>Design Thinking</li>
+                        <li>Backend Coding</li>
+                    </ul>
+            </div>
+
+            <div class="Experience">
+                <h2 id="Experience">Experience</h2>
+                    <ul>
+                        <li>Painting</li>
+                        <li>Bolt driver</li>
+                    </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- footer -->
+
+
+        <footer>
+            <div class="footer">
+                <div class="contacts">
+                <h2 id="Contacts">Contacts</h2>
+                    <ul>
+                        <li><i class="fa-brands fa-instagram"> </i> <a target="_blank" href="https://www.instagram.com/mosiitshwanelo/">instagram</a></li>
+                        <li><i class="fa-regular fa-envelope"> </i><a target="_blank" href="mailto:percymosii1@gmail.com">percymosii1@gmail.com</a></li>
+                        <li><i class="fa-brands fa-whatsapp"></i> <a> 0766825390</a></li>
+                        <li><i class="fa-brands fa-linkedin"> </i><a target="_blank" href="https://www.linkedin.com/in/percy-mosii-4b19311b8/">linkedin</a></li>
+                        <li><i class="fa-brands fa-github"></i><a target="_blank" id="Github" href="https://github.com/Tshwanelomosii">Github</a></li>
+                    </ul>
+                        
+                </div>
+    
+                <div class="form">
+    
+                    <form id="form" action="https://formsubmit.co/percymosii1@gmail.com" method="post">
+                        <div>
+                            <label>email</label>
+                            <input type="email" name="email"  placeholder="please enter email here" required >
+                        </div>
+
+                        <div>
+                            <label>reason for contact</label>
+                            <select name="_Subject" id="Subject" required>
+                            <option value=""></option>
+                            <option value="interview opportunity">interview opportunity</option>
+                            <option value="recruiter">recruiter</option>
+                            <option value="website feedback">website feedback</option>
+                            </select>
+                        </div>
+
+                        <textarea name="Message" id="text" cols="30" rows="15" placeholder="enter message here (optional)"></textarea>
+            
+                        
+            
+                        <input type="submit" class="submit" value="send">
+            
+            
+            
+                    </form>
+                </div>
+            </div>
+        </footer>
+      
+
+    
+
+    
+    
+</body>
 </html>
